@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "6b68c1eb-5f23-40b5-8cb6-3c1c76df046f",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25119902"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "id",
+						"value": "550e8400-e29b-41d4-a716-446655440000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"BodyId\": \"550e8400-e29b-41d4-a716-446655440000\",\r\n    \"BodyIdNumber\": \"5000\",\r\n    \"name\": \"Item 1\"\r\n  },\r\n  {\r\n    \"BodyId\": \"550e8400-e29b-41d4-a716-446655440001\",\r\n    \"BodyIdNumber\": \"5500\",\r\n    \"name\": \"Item 2\"\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/test/5000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"test",
+						"5000",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
